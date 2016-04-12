@@ -1,0 +1,21 @@
+// Useful for masonry effect
+
+// Column Count
+
+.cc-3 { column-count: 3; }
+
+// Column Gap
+
+.cg-3 { column-gap: 3rem; }
+
+@media screen and (min-width: 48em) {
+    .cc-3-ns { column-count: 3; }
+}
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+    .cc-3-m { column-count: 3; }
+}
+
+@media screen and (min-width: 64em) {
+    .cc-3-l { column-count: 3; }
+}

@@ -1,0 +1,13 @@
+.bg-none { background: none; }
+
+@media screen and (min-width: 48em) {
+    .bg-none-ns { background: none; }
+}
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+    .bg-none-m { background: none; }
+}
+
+@media screen and (min-width: 64em) {
+    .bg-none-l { background: none; }
+}

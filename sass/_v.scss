@@ -1,0 +1,55 @@
+/* uncss:ignore */
+.collections .db::after {
+    content: "";
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/* uncss:ignore */
+.collections .db::after {
+    opacity: 0.5;
+}
+/* uncss:ignore */
+.collections .db:hover::after {
+    opacity: 1;
+}
+
+@media screen and (min-width: 64em) {
+
+/* uncss:ignore */
+.masonry .db::after {
+    content: "";
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/* uncss:ignore */
+.masonry .db:hover::after {
+    opacity: .5;
+}
+
+.hide-child-ns .child-ns {
+    opacity: 0;
+  transition: opacity .15s ease-in;
+}
+
+.hide-child-ns:hover  .child-ns,
+.hide-child-ns:focus  .child-ns,
+.hide-child-ns:active .child-ns {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+}

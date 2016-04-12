@@ -1,0 +1,25 @@
+.top-a { top: auto; }
+.right-a { right: auto; }
+.bottom-a { bottom: auto; }
+.left-a { left: auto; }
+
+@media screen and (min-width: 48em) {
+    .top-a-ns { top: auto; }
+    .right-a-ns { right: auto; }
+    .bottom-a-ns { bottom: auto; }
+    .left-a-ns { left: auto; }
+}
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+    .top-a-m { top: auto; }
+    .right-a-m { right: auto; }
+    .bottom-a-m { bottom: auto; }
+    .left-a-m { left: auto; }
+}
+
+@media screen and (min-width: 64em) {
+    .top-a-l { top: auto; }
+    .right-a-l { right: auto; }
+    .bottom-a-l { bottom: auto; }
+    .left-a-l { left: auto; }
+}
